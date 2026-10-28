@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Inicio from "./pages/Inicio.jsx";
 import Servicios from "./pages/Servicios.jsx";
 import Contacto from "./pages/Contacto.jsx";
@@ -6,7 +6,7 @@ import "./index.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <header className="encabezado">
         <Link to="/" className="logo">🐾 Huellitas de Salta</Link>
         <nav aria-label="Navegación principal">
@@ -26,7 +26,7 @@ function App() {
         <p>© 2026 Huellitas de Salta</p>
         <p>Telefono: 3874791258</p>
       </footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
