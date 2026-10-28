@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "vet_saltagit add .",
+  base: "Vet_salta",
 });
 
